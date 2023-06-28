@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #000000;
+
+  --lgcolor: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  flex-direction: column;
+}
+
+h1 {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10rem;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 1px 5px 5px rgba(176, 221, 87, 0.5);
+}
+
+h2 {
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#article-quote {
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#quoteText {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#quoteAuthor {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#getQuoteBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: limegreen;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#getQuoteBtn:hover {
+  background-color: #06641a;
+}
+
+#photo-box {
+  height: 100vh;
+}
